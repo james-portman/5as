@@ -4,5 +4,15 @@ to set this up, get into this directory then run
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements
+then run
+python 5as.py
 
+
+
+OR
+
+
+just run:
+pip install pyserial
+then run:
 python 5as.py
