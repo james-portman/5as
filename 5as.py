@@ -51,7 +51,7 @@ ser.write(b'\x55')
 time.sleep(0.007)
 ser.write(b'\x83')
 time.sleep(0.007)
-ser.write(b'\x76')
+ser.write(b'\x76') # maybe f6/f7 too depending on what the programmer tries
 
 print("waiting for next data from programer")
 while True:
