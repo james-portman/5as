@@ -1,0 +1,8 @@
+to set this up, get into this directory then run
+(python 3 installed is best)
+
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements
+
+python 5as.py
